@@ -1,5 +1,7 @@
+$color-title: #111111;
+
 h1, h2, h3, h4, h5, h6 {
-    color: #111111;
+    color: $color-title;
 }
 
 a {
@@ -27,9 +29,10 @@ body {
             font-size:     250%;
         }
 
-        h2 {
+        p {
             margin-top: 0em;
             font-size : 100%;
+            color: $color-title
         }
     }
 }
