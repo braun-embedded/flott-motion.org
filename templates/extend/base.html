@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {% if page and page.content != "" %}
+            <title>{{page.title}} - Flott</title>
+        {% else %}
+            <title>Flott - Motion Control Toolkit</title>
+        {% endif %}
+
+        <link href="/base.css" rel="stylesheet" type="text/css" media="all" />
+    </head>
+
+    <body>
+        <header>
+            <a class="title" href="/">
+                <h1>Flott</h1>
+                <h2>Motion Control Toolkit</h2>
+            </a>
+        </header>
+        <main>
+            {% block main %}{% endblock main %}
+        </main>
+    </body>
+</html>
