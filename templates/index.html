@@ -1,5 +1,9 @@
 {% extends "extend/base.html" %}
 
+{% block css -%}
+    <link href="/index.css" rel="stylesheet" type="text/css" media="all" />
+{%- endblock css %}
+
 {% block main %}
     {{ section.content | safe }}
 {% endblock main %}
