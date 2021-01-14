@@ -6,4 +6,16 @@
 
 {% block main %}
     {{ section.content | safe }}
+
+    <section class="news">
+        <h2>News</h2>
+        <ol>
+            {% for page in section.pages -%}
+                <li>
+                    <span class="date">{{ page.date }}</span> -
+                    <a href="{{ page.path }}">{{ page.title }}</a>
+                </li>
+            {%- endfor %}
+        </ol>
+    </section>
 {% endblock main %}

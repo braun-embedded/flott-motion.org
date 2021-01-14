@@ -1,0 +1,12 @@
+{% extends "extend/base.html" %}
+
+{% block css -%}
+    <link href="/news.css" rel="stylesheet" type="text/css" media="all" />
+{%- endblock css %}
+
+{% block main %}
+    <h2>{{ page.title }}</h2>
+    <p class="date">Posted on {{ page.date }} by {{ page.extra.author }}</p>
+
+    {{ page.content | safe }}
+{% endblock main %}
