@@ -1,4 +1,20 @@
 section.news {
+    header {
+        display:         flex;
+        flex-direction:  row;
+        flex-wrap:       wrap;
+        justify-content: flex-start;
+        align-items:     baseline;
+
+        h2 {
+            margin-right: 0.25em;
+        }
+
+        a {
+            font-size: 85%;
+        }
+    }
+
     ol {
         list-style: none;
         padding-left: 1em;

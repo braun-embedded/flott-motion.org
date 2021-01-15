@@ -8,7 +8,10 @@
     {{ section.content | safe }}
 
     <section class="news">
-        <h2>News</h2>
+        <header>
+            <h2>News</h2>
+            <a href="/atom.xml">(Atom feed)</a>
+        </header>
         <ol>
             {% for page in section.pages -%}
                 <li>
