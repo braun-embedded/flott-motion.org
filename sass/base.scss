@@ -18,6 +18,12 @@ body {
     margin:    0 auto;
 
     > header {
+        display:         flex;
+        flex-direction:  row;
+        flex-wrap:       wrap;
+        justify-content: flex-start;
+        align-items:     flex-end;
+
         margin-bottom: 2em;
 
         a.title {
@@ -33,6 +39,16 @@ body {
             margin-top: 0em;
             font-size : 100%;
             color: $color-title
+        }
+
+        nav {
+            ol {
+                list-style: none;
+
+                li a {
+                    color: $color-title;
+                }
+            }
         }
     }
 }
