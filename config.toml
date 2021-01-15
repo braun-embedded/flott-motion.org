@@ -1,6 +1,7 @@
 base_url = "https://flott-motion.org"
 
 compile_sass       = true
+generate_feed      = true
 build_search_index = true
 
 [markdown]
