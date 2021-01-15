@@ -6,7 +6,9 @@
 
 {% block main %}
     <h2>{{ page.title }}</h2>
-    <p class="date">Posted on {{ page.date }} by {{ page.extra.author }}</p>
+    <p class="date">
+        Posted on {{ page.date }} by <a href="{{ page.extra.author.link }}">{{ page.extra.author.name }}</a>
+    </p>
 
     {{ page.content | safe }}
 {% endblock main %}
