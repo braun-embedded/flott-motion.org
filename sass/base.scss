@@ -45,8 +45,13 @@ body {
             ol {
                 list-style: none;
 
-                li a {
-                    color: $color-title;
+                li {
+                    display:      inline;
+                    margin-right: 1em;
+
+                    a {
+                        color: $color-title;
+                    }
                 }
             }
         }
