@@ -1,0 +1,16 @@
+{% extends "extend/base.html" %}
+
+{% block css -%}
+    <link href="/news-page.css" rel="stylesheet" type="text/css" media="all" />
+{%- endblock css %}
+
+{% block main %}
+    {% set author = config.extra.authors[page.extra.author] -%}
+
+    <h2>{{ page.title }}</h2>
+    <p class="date">
+        Posted on {{ page.date }} by <a href="{{ author.link }}">{{ author.name }}</a>
+    </p>
+
+    {{ page.content | safe }}
+{% endblock main %}

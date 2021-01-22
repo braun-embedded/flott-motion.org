@@ -1,27 +1,7 @@
-section.news {
-    header {
-        display:         flex;
-        flex-direction:  row;
-        flex-wrap:       wrap;
-        justify-content: flex-start;
-        align-items:     baseline;
+strong.why {
+    font-size: 110%;
+}
 
-        h2 {
-            margin-right:  0.25em;
-            margin-bottom: 0;
-        }
-
-        a {
-            font-size: 85%;
-        }
-    }
-
-    ol {
-        list-style: none;
-        padding-left: 1em;
-    }
-
-    span.date {
-        font-weight: bold;
-    }
+li {
+    margin-bottom: 0.5em;
 }

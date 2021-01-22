@@ -1,5 +1,4 @@
 +++
-redirect_to   = "/"
-transparent   = true
-page_template = "news.html"
+template = "news.html"
+page_template = "news-page.html"
 +++

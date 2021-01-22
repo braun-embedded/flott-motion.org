@@ -5,12 +5,20 @@
 {%- endblock css %}
 
 {% block main %}
-    {% set author = config.extra.authors[page.extra.author] -%}
+    {{ section.content | safe }}
 
-    <h2>{{ page.title }}</h2>
-    <p class="date">
-        Posted on {{ page.date }} by <a href="{{ author.link }}">{{ author.name }}</a>
-    </p>
-
-    {{ page.content | safe }}
+    <section class="news">
+        <header>
+            <h2>News</h2>
+            <a href="/atom.xml">(Atom feed)</a>
+        </header>
+        <ol>
+            {% for page in section.pages -%}
+                <li>
+                    <span class="date">{{ page.date }}</span> -
+                    <a href="{{ page.path }}">{{ page.title }}</a>
+                </li>
+            {%- endfor %}
+        </ol>
+    </section>
 {% endblock main %}
