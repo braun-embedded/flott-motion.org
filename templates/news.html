@@ -9,7 +9,7 @@
             <a href="/atom.xml">(Atom feed)</a>
         </header>
         <ol>
-            {% for page in section.pages -%}
+            {% for page in section.pages | reverse -%}
                 <li>
                     <span class="date">{{ page.date }}</span> -
                     <a href="{{ page.path }}">{{ page.title }}</a>
