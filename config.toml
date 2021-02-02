@@ -1,3 +1,6 @@
+# Required by Atom feed template
+title = "Flott - Motion Control in Rust"
+
 base_url = "https://flott-motion.org"
 
 compile_sass       = true
