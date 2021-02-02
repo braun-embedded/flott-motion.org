@@ -7,10 +7,12 @@
 {% block main %}
     {% set author = config.extra.authors[page.extra.author] -%}
 
-    <h2>{{ page.title }}</h2>
-    <p class="date">
-        Posted on {{ page.date }} by <a href="{{ author.link }}">{{ author.name }}</a>
-    </p>
+    <div class="title">
+        <h2>{{ page.title }}</h2>
+        <p>
+            Posted on {{ page.date }} by <a href="{{ author.link }}">{{ author.name }}</a>
+        </p>
+    </div>
 
     {{ page.content | safe }}
 
