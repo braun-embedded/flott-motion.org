@@ -17,4 +17,5 @@ All content in this repository is licensed under the terms of the [Zero Clause B
 See [LICENSE.md] for full details.
 
 [Hanno Braun]: https://github.com/hannobraun
+[Zero Clause BSD License]: https://opensource.org/licenses/0BSD
 [LICENSE.md]: https://github.com/flott-motion/flott-motion.org/blob/main/LICENSE.md
