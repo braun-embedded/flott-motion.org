@@ -39,6 +39,7 @@ If publicity for the news article is desired (which it usually is), post links t
   Link post with link to the article.
 - This Week in Rust: https://github.com/rust-lang/this-week-in-rust  
   Add link to the article to the "Project/Tooling Updates" section.
+- Embedded WG Newsletter: https://github.com/rust-embedded/blog
 
 Please remember to choose a descriptive title when posting to these places. On the Flott website itself, a short title is preferable. Readers from other places lack a lot of context that website visitors have, so using a longer title that better summarizes what the news is about is appropriate.
 
