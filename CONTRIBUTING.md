@@ -35,7 +35,7 @@ If publicity for the news article is desired (which it usually is), post links t
 
 - Rust Users forum: https://users.rust-lang.org/  
   Short (1-2 sentences) summary and link to the article. Use the "announcements" category.
-- Rust Subreddit: https://users.rust-lang.org/  
+- Rust Subreddit: https://www.reddit.com/r/rust/
   Link post with link to the article.
 - This Week in Rust: https://github.com/rust-lang/this-week-in-rust  
   Add link to the article to the "Project/Tooling Updates" section.
