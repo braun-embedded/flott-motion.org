@@ -27,5 +27,4 @@ If you're getting value out of Flott, please consider supporting us financially.
 
 [Hanno Braun], the creator of Flott, is [accepting sponsorship](https://github.com/sponsors/hannobraun).
 
-[Step/Dir]: https://crates.io/crates/step-dir
 [Hanno Braun]: https://github.com/hannobraun
