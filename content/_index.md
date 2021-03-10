@@ -6,7 +6,7 @@
 ## Libraries
 
 It's still early days for Flott, and work to build up the ecosystem is ongoing. So far, the following libraries are available:
-- **[Step/Dir](https://github.com/flott-motion/step-dir) - Universal Stepper Motor Interface**
+- **[Stepper](https://github.com/flott-motion/stepper) - Universal Stepper Motor Interface**
 - **[RampMaker](https://github.com/flott-motion/ramp-maker) - Stepper Acceleration Ramp Generator**
 
 Long-term, Flott aims to become a comprehensive toolkit that covers all common motion control needs.
