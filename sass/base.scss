@@ -84,6 +84,14 @@ body {
     }
 }
 
+video {
+    max-width: 100%;
+
+    display:      block;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
 // First sentence on index page
 strong.why {
     font-size: 110%;
