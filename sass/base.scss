@@ -40,8 +40,11 @@ body {
     color:            #222222;
     background-color: #ffffff;
 
-    max-width: 42em;
-    margin:    0 auto;
+    max-width:    42em;
+    margin-left:  auto;
+    margin-right: auto;
+
+    margin-bottom: 5em;
 
     > header {
         display:         flex;
