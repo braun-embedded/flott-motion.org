@@ -23,8 +23,4 @@ Responsible for the content on this website is Hanno Braun. Full contact informa
             <a href="mailto:hanno@braun-embedded.com">hanno@braun-embedded.com</a>
         </td>
     </tr>
-    <tr>
-        <th>Phone</th>
-        <td>+49 6061 9797508</td>
-    </tr>
 </table>
