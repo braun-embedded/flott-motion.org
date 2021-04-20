@@ -5,7 +5,7 @@
 
 Flott is a toolkit for developing motion control software in Rust. Check out the [home page](/) for more information.
 
-Responsible for the content on this website is Hanno Braun. Full contact data:
+Responsible for the content on this website is Hanno Braun. Full contact information:
 
 <table class="about-contact">
     <tr>
@@ -20,11 +20,7 @@ Responsible for the content on this website is Hanno Braun. Full contact data:
     <tr>
         <th>Email</th>
         <td>
-            <a href="mailto:hanno@braun-embedded.com">hanno@braun-embedded.com</a>
+            <a href="mailto:hanno@braun-odw.eu">hanno@braun-odw.eu</a>
         </td>
-    </tr>
-    <tr>
-        <th>Phone</th>
-        <td>+49 6061 9797508</td>
     </tr>
 </table>
