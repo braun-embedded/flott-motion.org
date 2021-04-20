@@ -20,7 +20,7 @@ Responsible for the content on this website is Hanno Braun. Full contact informa
     <tr>
         <th>Email</th>
         <td>
-            <a href="mailto:hanno@braun-embedded.com">hanno@braun-embedded.com</a>
+            <a href="mailto:hanno@braun-odw.eu">hanno@braun-odw.eu</a>
         </td>
     </tr>
 </table>

@@ -79,7 +79,7 @@ Right now, Flott is focused on stepper motors, but I want to build it into a ful
 
 Thank you for your interest in Flott! If you're interested in following its development, feel free to [subscribe to the news feed](/atom.xml). I also plan to set up an email newsletter, but haven't gotten around to it yet. Next month, hopefully!
 
-The next newsletter is expected to arrive in early April. If you have any questions or feedback, please don't hesitate to [contact me](mailto:hanno@braun-embedded.com)!
+The next newsletter is expected to arrive in early April. If you have any questions or feedback, please don't hesitate to [contact me](mailto:hanno@braun-odw.eu)!
 
 [RampMaker]: https://github.com/flott-motion/ramp-maker
 [Step/Dir]: https://github.com/flott-motion/step-dir
