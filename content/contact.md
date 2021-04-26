@@ -1,7 +1,7 @@
 +++
 +++
 
-## About
+## Contact
 
 Flott is a toolkit for developing motion control software in Rust. Check out the [home page](/) for more information.
 
