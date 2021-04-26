@@ -1,13 +1,11 @@
 +++
 +++
 
-## About
+## Contact
 
-Flott is a toolkit for developing motion control software in Rust. Check out the [home page](/) for more information.
+This website is managed by Hanno Braun, who is responsible for all the content. Full contact information:
 
-Responsible for the content on this website is Hanno Braun. Full contact information:
-
-<table class="about-contact">
+<table class="contact">
     <tr>
         <th>Postal Address</th>
         <td>
