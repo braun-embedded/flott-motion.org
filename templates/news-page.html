@@ -19,6 +19,10 @@
     <hr />
 
     <footer>
-        <p>Interested in Flott? <a href="/atom.xml">Subscribe to the news feed</a>!</p>
+        <p>Interested in Flott? <a href="/atom.xml">Subscribe to the news feed</a>, or sign up for the newsletter below!</p>
     </footer>
 {% endblock main %}
+
+{% block footer %}
+    {% include "include/newsletter-signup.html" %}
+{% endblock footer %}
