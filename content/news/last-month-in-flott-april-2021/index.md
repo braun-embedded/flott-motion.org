@@ -8,7 +8,7 @@ author = "hannobraun"
 
 This is the monthly newsletter for [Flott](https://flott-motion.org/), the toolkit for motion control software in Rust. Flott aims to make developing motion control software easy, by providing libraries that abstract over hardware commonly used for motion control, like motors, encoders, and other sensors and actuators.
 
-Last months saw a new release of [Stepper], the universal stepper motor interface. I've also published [Stepper Terminal], a new application, built on top of Stepper, for controlling a stepper motor from the command-line on your computer.
+Last month saw a new release of [Stepper], the universal stepper motor interface. I've also published [Stepper Terminal], a new application, built on top of Stepper, for controlling a stepper motor from the command-line on your computer.
 
 <aside>
 <p>
