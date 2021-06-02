@@ -46,6 +46,14 @@ body {
 
     margin-bottom: 5em;
 
+    > p {
+        padding: 1em 3em;
+        border-radius: 0.5em;
+        background-color: #ffbb00;
+
+        font-weight: bold;
+    }
+
     > header {
         display:         flex;
         flex-direction:  row;
